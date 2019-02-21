@@ -12,7 +12,7 @@ __References__
       a. Discussion on project to use photos rather than video.
         https://github.com/eladj/detectParking/issues/5#issuecomment-465852213
         
-  2. Using deep learning to detect parking spots (Project)__
+  2. Using deep learning to detect parking spots (Project)
       https://github.com/fabiocarrara/deep-parking
 
       a. Project it is based on (Project)
