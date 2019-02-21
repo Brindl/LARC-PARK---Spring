@@ -4,6 +4,25 @@ An attempt at creating a system to detect parking spots and determine how many a
 
 __Guidance__
 
+  * Define variables
+    * Repository locations, time, date
+    * Array of coordinates for each parking space(Spot 1, x1,y1,x2,y2), type of parking space (standard, handicap, motorcyle)
+  
+  * While Loop:
+    * Declare video frame or photo to analyze next
+    * Blur colors to produce larger/more simple shapes
+    * Compare each parking spot to empty parking spot data in a predetermined order
+      * If same: Parking spot is open (0)
+      * If different enough: parking spot is occupied (1)
+    * Write array of values to a textfile (Spot 1:Empty/Standard, Spot 2:Filled/Handicap, Spot 3:Filled/Standard)
+    * End Loop:
+  
+  * Interpreting Software
+    * Open textfile
+    * Display textfile values in a meaningful way
+  
+  
+
 __References__
 
   1. A project with similar intent to this project. Uses video feed to detect if pre-mapped parking spaces are still visible.           
