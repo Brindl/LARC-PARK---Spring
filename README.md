@@ -21,3 +21,5 @@ References
       b. Deep learning for decentralized parking lot occupancy detection (Paper)
       https://www.sciencedirect.com/science/article/pii/S095741741630598X
 
+  3. Glossary
+    https://usabilityetc.com/articles/image-processing-glossary/
