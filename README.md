@@ -4,6 +4,8 @@ An attempt at creating a system to detect parking spots and determine how many a
 
 __Guidance__
 
+Sudo Code
+
   * Define variables
     * Repository locations, time, date
     * Array of coordinates for each parking space(Spot 1, x1,y1,x2,y2), type of parking space (standard, handicap, motorcyle)
@@ -21,7 +23,14 @@ __Guidance__
     * Open textfile
     * Display textfile values in a meaningful way
   
-  
+Compile Code (Python)
+* https://github.com/Brindl/LARC-PARK---Spring/wiki/Generating-a-compiled-executable-(freezing-code)
+
+Call Executable (Interpret Image)
+* ~~DetectParking.exe <Video_Filename or Camera_Number> <ParkingData_Filename>~~
+
+Call Executable (Display Data to User)
+* Unknown
 
 __References__
 
