@@ -51,7 +51,19 @@ __References__
 
   3. Parking Lot Database__
     https://web.inf.ufpr.br/vri/databases/parking-lot-database/
+    
+  4. Close up car detection using a camera (Each camera detects 5-10 cars. Lots of Cameras)
+  https://github.com/DeepParking/DeepParking
 
+  5. App for public parking by city
+  https://github.com/kiliankoe/ParkenDD
+  
+  6. Montreal publicly posts street and parking information
+  http://donnees.ville.montreal.qc.ca/dataset/stationnement-sur-rue-signalisation-courant
+  
+  7. Car Masking
+  https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400
+  
 __Glossary__
    
    1. https://usabilityetc.com/articles/image-processing-glossary/
