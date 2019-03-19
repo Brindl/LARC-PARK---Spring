@@ -61,8 +61,8 @@ __References__
   6. Montreal publicly posts street and parking information
   http://donnees.ville.montreal.qc.ca/dataset/stationnement-sur-rue-signalisation-courant
   
-  7. Car Masking
-  https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400
+  7. Mask R-CNN and Python
+      a. https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400
   
 __Glossary__
    
