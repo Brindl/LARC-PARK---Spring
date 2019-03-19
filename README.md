@@ -62,7 +62,7 @@ __References__
   http://donnees.ville.montreal.qc.ca/dataset/stationnement-sur-rue-signalisation-courant
   
   7. Mask R-CNN and Python
-      a. https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400
+  https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400
   
 __Glossary__
    
