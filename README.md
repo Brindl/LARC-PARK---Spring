@@ -69,6 +69,9 @@ __References__
   7. Mask R-CNN and Python
   https://medium.com/@ageitgey/snagging-parking-spaces-with-mask-r-cnn-and-python-955f2231c400
   
+  8. Pytorch - Mask R-CNN
+  https://github.com/multimodallearning/pytorch-mask-rcnn
+  
 __Glossary__
    
    1. https://usabilityetc.com/articles/image-processing-glossary/
