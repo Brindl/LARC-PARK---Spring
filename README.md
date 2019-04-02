@@ -4,16 +4,18 @@ An attempt at creating a system to detect parking spots and determine how many a
 
 __Guidance__
 
-Sudo Code
+Write the software
+  * Many projects already exist to complete this task and a few are listed in the references section
 
   * Define variables
     * Repository locations, time, date
     * Array of coordinates for each parking space(Spot 1, x1,y1,x2,y2), type of parking space (standard, handicap, motorcyle)
+    * Parking spots can be defined by the user or by a CNN which decide what is and is not a parking spot
+    * Provide a location where program can fetch photos or videos to analyze, such as a web server, streaming site, or database
   
   * While Loop:
     * Declare video frame or photo to analyze next
-    * Blur colors to produce larger/more simple shapes
-    * Compare each parking spot to empty parking spot data in a predetermined order
+    * Compare each parking spot to empty parking spot data in a predetermined order such that they can be referenced later
       * If same: Parking spot is open (0)
       * If different enough: parking spot is occupied (1)
     * Write array of values to a textfile (Spot 1:Empty/Standard, Spot 2:Filled/Handicap, Spot 3:Filled/Standard)
@@ -21,16 +23,19 @@ Sudo Code
   
   * Interpreting Software
     * Open textfile
-    * Display textfile values in a meaningful way
-  
+    * Display textfile values in a meaningful way such as an app, web page, or text alert
+
+Choose Hardware
+  * The cheapest solution is to use a Raspberry Pi ($5). The fastest solution able to render frames at a very high rate is to use a workstation with a 2080ti ($3000).
+
 Compile Code (Python)
-* https://github.com/Brindl/LARC-PARK---Spring/wiki/Generating-a-compiled-executable-(freezing-code)
+   * The code must be compiled into an executable for the hardware and operating system on which it will run. There are many choices for how to compile the software but it has to be compiled for the hardware chosen. 
 
 Call Executable (Interpret Image)
-* ~~DetectParking.exe <Video_Filename or Camera_Number> <ParkingData_Filename>~~
+   * detectparkingspots.exe -input_image -output_textfile
 
 Call Executable (Display Data to User)
-* Unknown
+   * uploadthedata.exe -input_textfile -output_webserver
 
 __References__
 
